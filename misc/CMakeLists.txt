@@ -1,7 +1,7 @@
 add_library(cimple-misc)
 target_sources(cimple-misc
         PUBLIC
-        special_members_decorator.hpp
+        noisy.hpp
         PRIVATE
         nop.cpp
 )

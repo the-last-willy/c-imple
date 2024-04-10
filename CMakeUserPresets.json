@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/media/willy/Data/projects/c-imple/build/Release/generators/CMakePresets.json"
+        "D:\\MyProjects\\cimple\\build\\generators\\CMakePresets.json"
     ]
 }

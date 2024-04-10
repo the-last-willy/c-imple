@@ -1,9 +1,13 @@
-#include "special_members_decorator.hpp"
+#include "logging_std_allocator.hpp"
+#include "noisy.hpp"
 
-#include <string>
+#include <vector>
 
 using namespace cimp;
 
-int main() {
-    auto test = logging_special_members<std::string>();
+int main()
+{
+    std::vector<noisy, logging_std_allocator<noisy>> vec;
+    vec.resize(3);
+    vec.resize(5);
 }
